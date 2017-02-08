@@ -1,0 +1,93 @@
+/* Media Quries */
+
+@media (max-width:1200px ) {
+    
+}
+
+@media (max-width: 991px) {
+    .phone-img{
+        display: none;
+    }
+    .jumbotron h1,p,img{
+        text-align: center;
+    }
+    
+}
+
+@media (min-width:768px ) and (max-width: 991px) {
+    .jumbotron .app{
+
+        width: 31%;
+
+
+    }
+    .jumbotron{
+        height: 400px !important;
+        background-size: 100% 100%;
+        text-align: center;
+
+    }
+    .jumbotron h1{
+        margin-top: 10px;
+    }
+    #contact input{
+        margin-bottom: 20px;
+    }
+
+    .col-md-6{
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media (max-width:768px ){
+    .jumbotron{
+        height: 350px !important;
+        background-size: 100% 100%;
+        text-align: center;
+
+    }
+    section#features ul li{
+        margin: auto;
+    }
+    #contact input{
+        margin-bottom: 20px;
+    }
+    .col-md-6{
+        margin-bottom: 20px;
+    }
+
+
+
+}
+
+@media (max-width:550px ){
+    .jumbotron{
+        height: 350px !important;
+        background-image: none;
+        background-color: #1b222a;
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    .jumbotron .app{
+
+        width: 31%;
+
+
+    }
+
+    section#features ul li{
+        margin: auto;
+    }
+
+    #contact input{
+        margin-bottom: 20px;
+    }
+    .col-md-6{
+        margin-bottom: 20px;
+    }
+
+
+
+}
+
