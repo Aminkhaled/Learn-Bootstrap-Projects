@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Photo Gallery</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <!--lightbox css-->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">PhotoShark</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    <section >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="carousel slide" id="carousel_id" data-ride="carousel">
+
+
+          <ol class="carousel-indicators">
+            <li data-target="#carousel_id" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel_id" data-slide-to="1"></li>
+            <li data-target="#carousel_id" data-slide-to="2"></li>
+            <li data-target="#carousel_id" data-slide-to="3"></li>
+            <li data-target="#carousel_id" data-slide-to="4"></li>
+            <li data-target="#carousel_id" data-slide-to="5"></li>
+
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <a href="img/sample1.jpg" data-lightbox="roadtrip" id="smaple1">
+              <img src="img/sample1.jpg" class="img-thumbnail" alt="sample">
+              </a>
+            </div>
+            <!--item-->
+            <div class="item ">
+              <a href="img/sample2.jpg" data-lightbox="roadtrip" id="smaple2">
+                <img src="img/sample2.jpg" class="img-thumbnail" alt="sample">
+              </a>
+            </div>
+            <!--item-->
+
+            <div class="item ">
+              <a href="img/sample3.jpg" data-lightbox="roadtrip" id="smaple3">
+                <img src="img/sample3.jpg" class="img-thumbnail" alt="sample">
+              </a>
+            </div>
+            <!--item-->
+
+            <div class="item ">
+              <a href="img/sample4.jpg" data-lightbox="roadtrip" id="smaple4">
+                <img src="img/sample4.jpg" class="img-thumbnail" alt="sample">
+              </a>
+            </div>
+            <!--item-->
+
+            <div class="item ">
+              <a href="img/sample5.jpg" data-lightbox="roadtrip" id="smaple5">
+                <img src="img/sample5.jpg" class="img-thumbnail" alt="sample">
+              </a>
+            </div>
+            <!--item-->
+
+            <div class="item ">
+              <a href="img/sample6.jpg" data-lightbox="roadtrip" id="smaple6">
+                <img src="img/sample6.jpg" class="img-thumbnail" alt="sample">
+              </a>
+            </div>
+            <!--item-->
+          </div>
+          <!--carousel inner-->
+          <div class="carousel-control" data-target="#carousel_id" role="button" data-slide="prev">
+            <i class="glyphicon glyphicon-arrow-left"></i>
+          </div>
+
+          <div class="carousel-control" data-target="#carousel_id" role="button" data-slide="next">
+            <i class="glyphicon glyphicon-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+      
+    </section>
+
+   
+    
+    <section id="tabs-gallery">
+      <ul class="nav nav-tabs"  role="tablist">
+        <li ><a href="#gallery" role="tab"   data-toggle="tab">Gallery</a></li>
+        <li ><a href="#photos" role="tab"   data-toggle="tab">Photos</a></li>
+        <li ><a href="#images" role="tab"  data-toggle="tab">Images</a></li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="gallery">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/sample1.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+              </div>
+              <!--col-md-4 -->
+              <div class="col-md-4">
+                <img src="img/sample2.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+              <div class="col-md-4">
+                <img src="img/sample3.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+            </div>
+            <!--row-->
+
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/sample4.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+              <div class="col-md-4">
+                <img src="img/sample5.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+              <div class="col-md-4">
+                <img src="img/sample6.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+            </div>
+            <!--row-->
+          </div>
+        </div>
+        <!--gallery tab-->
+
+        <div class="tab-pane " id="photos">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/sample1.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+              <div class="col-md-4">
+                <img src="img/sample2.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+              <div class="col-md-4">
+                <img src="img/sample3.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+            </div>
+            <!--row-->
+
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/sample4.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+              <div class="col-md-4">
+                <img src="img/sample5.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+              <div class="col-md-4">
+                <img src="img/sample6.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+            </div>
+            <!--row-->
+          </div>
+        </div>
+        <!--photos tab-->
+
+
+        <div class="tab-pane " id="images">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/sample1.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+              <div class="col-md-4">
+                <img src="img/sample2.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+              <div class="col-md-4">
+                <img src="img/sample3.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+            </div>
+            <!--row-->
+
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/sample4.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+              <div class="col-md-4">
+                <img src="img/sample5.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+              <div class="col-md-4">
+                <img src="img/sample6.jpg" class="img-thumbnail" alt="sample1">
+                <h3>This Is amazing photo</h3>
+
+              </div>
+              <!--col-md-4 -->
+            </div>
+            <!--row-->
+          </div>
+        </div>
+        <!--images tab-->
+      </div>   </section>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/plugins.js"></script>
+  </body>
+</html>
