@@ -16,7 +16,22 @@ header {
 .nav li a{
     margin-right: 30px;
 }
+.head .panel-heading{
+    padding: 10px;
 
+}
+.img-users ul li{
+    list-style-type: none;
+    float: left;
+
+}
+
+.img-users ul li img{
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+
+}
 
 
 
